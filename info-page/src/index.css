@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+.Navbar{
+  display: flex;
+  background-color: #21222A;
+  align-items: center;
+  padding: 10px 25px;
+}
+
+
+body{
+  font-family: Inter, sans-serif;
+}
+
+#righthead{
+  font-size: 20px;
+  color: #DEEBF8;
+  font-weight: 600;
+}
+
+#lefthead{
+  font-size: 35px;
+  font-weight: 700;
+  color: #61DAFB;
+  margin-right: auto;
+}
+
+.Navbar > img {
+  margin-right: 7px;
+  width: 50px;
+}
+
+#Main{
+  margin: 30px;
+  letter-spacing: -0.05em;
+}
+
+.List{
+  margin: 10px 25px;
+}
+
+.List > li{
+  padding-block: 15px;
+  line-height: 19px;
+}
+
+.List > li::marker{
+  color: #61DAFB;
+  font-size: 1.4rem;
+}
+
+.Main{
+  background-image: url(./images/logo512.png);
+  background-repeat: no-repeat;
+  background-position-x: 120%;
+  background-blend-mode: color-dodge;
+  height: 1280px;
+}
