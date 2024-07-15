@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.pfp{
+  width: 100px;
+}
+.pfp:hover{
+  filter:brightness(1000);
+}
