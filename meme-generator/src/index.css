@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+body{
+  font-family: "Karla", sans-serif;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  padding: 10px 30px;
+}
+
+.trollface{
+  width: 31.31px;
+  height: 26.22px;
+}
+
+.header--title{
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20.7482px;
+  line-height: 24px;
+  letter-spacing: -0.1em;
+
+  color: #FFFFFF;
+}
+
+.header--project-title{
+  margin-left: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+
+  color: #FFFFFF;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+.form--top{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.form--submit{
+  width: 500px;
+  height: 40px;
+  align-self: center;
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  border-radius: 5px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: -0.1em;
+
+  color: #FFFFFF;
+}
+
+.form--top-text{
+  margin: 25px;
+}
+
+.form--down-text{
+  margin: 25px;
+}
+
+.form--input-text{
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #374151;
+  margin-bottom: 5px;
+
+
+}
+
+input{
+  box-sizing: border-box;
+  gap: 6.55px;
+
+  background: #FFFFFF;
+
+  border: 0.818739px solid #D1D5DB;
+  box-shadow: 0px 0.818739px 1.63748px rgba(0, 0, 0, 0.05);
+  border-radius: 4.91243px;
+
+  width: 222px;
+  height: 35px;
+
+  text-indent: 5px;
+}
